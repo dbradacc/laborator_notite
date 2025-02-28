@@ -1,0 +1,17 @@
+Prin intermediul laboratorului de sisteme de operare am studiat o serie de comenzi utile in lucrul cu linia de comanda. 
+De exemplu am invatat comanda ls, care afiseaza fisierele si directoarele din locatia curenta, iar ls -l, ofera mai multe detalii, precum(ora, data).
+Pentru a crea un director nou si a intra in el, folosim comanda mkdir si cd.
+Daca folosim ls -a -l, vom vedea si fisierele ascunse(cele cu "." in fata, directorul curent . si directorul parinte ..
+Comanda ls -all(toate detaliile)
+Pentru mai multe informatii despre oricare comanda, exista comanda man, mai exact pentru a avea acces la manual se tasteaza comanda man man.
+Pentru crearea rapida a unui fisier gol exista comanda, touch fisier.nou, iar stergerea fisierelor se face cu rm alt_fisier(sau pentru a sterge tot continutul dintr-un director, se realizeaza cu, comanda rm files/*.
+
+Comanda pwd iti arata directorul curent, iar comanda cat fisier afiseaza continutul intreg pe ecran.
+Daca rulezi comanda cat, aceasta citeste intrarea de la tastatura.
+Pentru cautarea unui text specific, exista comanda grep, de exemplu grep test < continut, cauta cuvantul test in fisierul continut si afiseaza linia unde apare.
+Ca editor in terminal vi, permite comenzi pe fiecare tasta( de exemplu y este pentru copiere, p pentru lipire, i pentru inserare.
+Dupa apasarea tastei <ESC>, revine in modul normal.
+Se folosesc tastele pentru mutarea cursorului, mai exact tasta h(dreapta), l(stanga), k(sus), j(jos).
+Pentru iesirea din acest editor, exista 2 metode:
+1. Daca nu ai modificari, utilizam comanda :q si enter.
+2. Daca ai modificari si vrei sa le salvezi, utilizam comanda :wq, insa daca nu vrei sa salvezi nimic se foloseste comanda :q!
